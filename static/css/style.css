@@ -101,11 +101,24 @@ color: #a72563;
 /* HEADER */
  
  div.header {
- 
+ height: 107px;
  }
  
- div.main_menu {
+ div.top-padding {
+ position: relative;
+ left: -160px;
+ background-color: #000;
+ height: 16px;
+ width: 1271px;
+ }
+ 
+ div.main_menu, div.main_menu a {
+ margin-top: 30px;
  font-family: 'Gudea', sans-serif;
+ font-size: 14px;
+ color: #8f7a4c;
+ text-transform: uppercase;
+ text-decoration: none;
  }
  
  div.home_btn {
@@ -114,25 +127,34 @@ color: #a72563;
  }
  
  div.home_icon {
+ position: relative;
+ float: left;
+ top: -9px;
  background-image:url(/static/img/home.png);
+ width: 23px;
+ height: 22px;
  }
  
- div.home_icon p {
- 
+ div.home_btn p {
+ position: relative;
+ float: left;
+ margin-left: 8px;
  }
  
  div.main_menu ul {
- 
+ position: relative;
+ float: right;
  }
  
  div.main_menu li {
- 
+ display: inline;
+ margin-left: 30px;
  }
  
 /* CAROUSEL */
  
  div.carousel {
- 
+ position: relative;
  }
  
  div.bg_img {
@@ -150,8 +172,8 @@ color: #a72563;
  background-image:url(/static/img/lucy_vector.png);
  width: 336px;
  height: 368px;
- left: 610px;
- top: 73px;
+ left: 460px;
+ top: -23px;
  }
  
 /* CONTENT */
