@@ -54,6 +54,7 @@ html, body {
 body {
        margin: 0px;
        padding: 0px;
+ background-image:url(/static/img/gray_jean.png);
  }
  
  
@@ -232,7 +233,7 @@ cursor: pointer;
 
 div.feature:hover {
 color: #ffffff;
-background: #a72563;
+background: #57062d;
 text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
 transition: background .25s linear;
 -webkit-transition: background .25s linear;
