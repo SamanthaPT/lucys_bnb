@@ -79,12 +79,12 @@ div#content_wrapper {
  
 
 div#footer_wrapper, div#content_wrapper {
-       min-width: 942px;
+       min-width: 960px;
  }
  
 
 div#footer_inner_wrapper, div#content_inner_wrapper {
-       width: 942px;
+       width: 960px;
        margin: 0px auto;
  }
  
@@ -95,7 +95,7 @@ font-family: 'Rancho', cursive;
 }
 
 h1 span {
-
+color: #a72563;
 }
  
 /* HEADER */
@@ -136,11 +136,22 @@ h1 span {
  }
  
  div.bg_img {
+ position: relative;
+ left: -160px;
  background-image:url(/static/img/logo.png);
+ width: 1271px;
+ height: 336px;
+ border-top: 8px solid #000;
+ border-bottom: 8px solid #000;
  }
  
  div.fg_img {
+ position: absolute;
  background-image:url(/static/img/lucy_vector.png);
+ width: 336px;
+ height: 368px;
+ left: 610px;
+ top: 73px;
  }
  
 /* CONTENT */
@@ -205,7 +216,11 @@ background-image:url(/static/img/laundry.png);
 /* FOOTER */
 
 div.footer_bg {
+position: relative;
+left: -160px;
 background-color: #000;
+height: 200px;
+width: 1271px;
 }
  
  
