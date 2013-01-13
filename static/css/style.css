@@ -92,6 +92,8 @@ div#footer_inner_wrapper, div#content_inner_wrapper {
 
 h1 {
 font-family: 'Rancho', cursive;
+font-size: 21px;
+margin: 30px 0px;
 }
 
 h1 span {
@@ -112,13 +114,8 @@ color: #a72563;
  width: 1271px;
  }
  
- div.main_menu, div.main_menu a {
+ div.main_menu {
  margin-top: 30px;
- font-family: 'Gudea', sans-serif;
- font-size: 14px;
- color: #8f7a4c;
- text-transform: uppercase;
- text-decoration: none;
  }
  
 .active {
@@ -128,6 +125,11 @@ text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
 }
  
  div.main_menu a {
+font-family: 'Gudea', sans-serif;
+font-size: 14px;
+color: #3C3E44;
+text-transform: uppercase;
+text-decoration: none;
 padding: 7px 15px 7px 15px;
 border-radius: 3px;
 -moz-border-radius: 3px;
@@ -142,10 +144,10 @@ transition: background .25s linear;
 color: #ffffff;
 background: #a72563;
 text-shadow: none;
-filter:alpha(opacity=50);
+/*filter:alpha(opacity=50);
 -moz-opacity:0.5;
 -khtml-opacity: 0.5;
-opacity: 0.5;
+opacity: 0.5;*/
 transition: background .25s linear;
 -webkit-transition: background .25s linear;
 -moz-transition: background .25s linear;
@@ -211,56 +213,105 @@ div.content {
 }
 
 div.features_list {
-
-}
-
-div.features_list ul {
-
-}
-
-div.features_list li {
-
+height: 100px;
 }
 
 div.features_list p {
 font-family: 'Gudea', sans-serif;
+text-align: center;
+font-size: 14px;
 }
 
-div.features_icon {
-width: 50px;
-height: 50px;
+div.feature {
+position: relative;
+float: left;
+width: 120px;
+padding-bottom: 5px;
+cursor: pointer;
+}
+
+div.feature:hover {
+color: #ffffff;
+background: #a72563;
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+transition: background .25s linear;
+-webkit-transition: background .25s linear;
+-moz-transition: background .25s linear;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+
+div.feature_icon {
+width: 40px;
+height: 35px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
 }
 
 div.pickups {
 background-image:url(/static/img/pickups.png);
 }
 
+div.feature:hover div.pickups {
+background-image:url(/static/img/pickups_h.png);
+}
+
 div.wifi {
 background-image:url(/static/img/wifi.png);
+}
+
+div.feature:hover div.wifi {
+background-image:url(/static/img/wifi_h.png);
 }
 
 div.comfort {
 background-image:url(/static/img/comfort.png);
 }
 
+div.feature:hover div.comfort {
+background-image:url(/static/img/comfort_h.png);
+}
+
 div.jacuzzi {
 background-image:url(/static/img/jacuzzi.png);
+}
+
+div.feature:hover div.jacuzzi {
+background-image:url(/static/img/jacuzzi_h.png);
 }
 
 div.cable {
 background-image:url(/static/img/cable.png);
 }
 
+div.feature:hover div.cable {
+background-image:url(/static/img/cable_h.png);
+}
+
 div.english {
 background-image:url(/static/img/english.png);
+}
+
+div.feature:hover div.english {
+background-image:url(/static/img/english_h.png);
 }
 
 div.breakfast {
 background-image:url(/static/img/breakfast.png);
 }
 
+div.feature:hover div.breakfast {
+background-image:url(/static/img/breakfast_h.png);
+}
+
 div.laundry {
 background-image:url(/static/img/laundry.png);
+}
+
+div.feature:hover div.laundry {
+background-image:url(/static/img/laundry_h.png);
 }
 
 /* FOOTER */
