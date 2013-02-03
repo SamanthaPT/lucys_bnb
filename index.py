@@ -21,41 +21,11 @@ import logging
 def index(request):
   params = {}
   
-  small_prefix = "/static/img/gallery/small/gSmall_"
-  large_prefix = "/static/img/gallery/large/g_"
-  small = []
-  large = []
-  
-  offset = 128
-  for i in xrange(1,11):
-    small_s = "%s%d.png" % (small_prefix,i)
-    large_s = "%s%d.png" % (large_prefix,i)
-    small.append((small_s,offset*(i-1),i))
-    large.append(large_s)
-    
-  params["smallImages"]=small
-  params["largeImages"]=large
-  params["prefix"]=large_prefix
-  params["offset"] = offset
-  divisions = []
-  for i in xrange(1,5):
-    if(i<4):
-      divisions.append((i,True))
-    else:
-      divisions.append((i,False))
-      
-  params["divisions"] = divisions
-  
-  logging.error(params)
-  print params
-  
   return shortcuts.render_to_response("index.html", params)
   
- 
-
 def rooms(request):
   params = {}
-  return shortcuts.render_to_response("rooms.html", params)  
+  return shortcuts.render_to_response("book_room.html", params)  
   
 def contacts(request):
   params = {}

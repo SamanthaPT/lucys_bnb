@@ -18,7 +18,7 @@ from django.conf.urls.defaults import *
 urlpatterns = patterns(
     '',
     (r'^$', 'index.index'),
-	(r'^rooms$', 'index.rooms'),
+	(r'^book_room$', 'index.rooms'),
 	(r'^contacts$', 'index.contacts'),
 	(r'^activities$', 'index.activities'),
 	(r'^location$', 'index.location'),
