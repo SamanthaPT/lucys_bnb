@@ -110,6 +110,54 @@ margin: 30px 0px;
 color: #57062d;
 font-weight: bolder;
 }
+
+h3 {
+font-family: 'Rancho', cursive;
+font-size: 21px;
+color: #a72563;
+}
+
+h4 {
+font-family: 'Rancho', cursive;
+font-size: 24px;
+color: #a72563;
+font-weight: bolder;
+margin: 40px 0px 65px 0px;
+}
+
+h5 {
+position: relative;
+float: left;
+font-family: 'Rancho', cursive;
+font-size: 72px;
+margin: 10px 0px 0px 30px;
+color: #a72563;
+font-weight: bolder;
+}
+
+h6 {
+position: relative;
+float: left;
+font-family: 'Rancho', cursive;
+font-size: 24px;
+color: #a72563;
+font-weight: bolder;
+margin: 20px 0px 0px 30px;
+line-height: 28px;
+}
+
+h6 span {
+color: #000;
+}
+
+h7 {
+position: relative;
+float: left;
+margin: 13px 0px 0px 30px;
+font-family: 'Rancho', cursive;
+font-size: 21px;
+color: #000;
+}
  
 /* HEADER */
  
@@ -135,6 +183,11 @@ background: #a72563;
 text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
 }
  
+.active2 {
+color: #ffffff !important;
+background: #000;
+}
+ 
  div.main_menu a {
 font-family: 'Gudea', sans-serif;
 font-size: 14px;
@@ -145,10 +198,14 @@ padding: 7px 15px 7px 15px;
 border-radius: 3px;
 -moz-border-radius: 3px;
 -webkit-border-radius: 3px;
-margin-right: 10px;
+margin-left: 10px;
 transition: background .25s linear;
 -webkit-transition: background .25s linear;
 -moz-transition: background .25s linear;
+}
+
+.ml0 {
+margin-left: 0px !important;
 }
 
  div.main_menu a:hover {
@@ -225,6 +282,23 @@ transition: background .25s linear;
  top: -23px;
  }
  
+ div.carousel_img {
+ position: relative;
+ left: -160px;
+ width: 1271px;
+ height: 515px;
+ border-top: 8px solid #000;
+ border-bottom: 8px solid #000;
+ }
+ 
+ .our_rooms_1 {
+ background-image:url(/static/img/our_rooms_1.png);
+ }
+ 
+ .breakfast_1 {
+ background-image:url(/static/img/breakfast_1.png);
+ }
+ 
  div.small_header {
  position: relative;
  left: -152px;
@@ -271,6 +345,16 @@ transition: background .25s linear;
  height: 73px;
  margin-left: 30px;
  margin-top: 50px;
+ }
+ 
+ div.medium_arrow {
+ position: relative;
+ float: left;
+ background-image:url(/static/img/medium_arrow.png);
+ width: 27px;
+ height: 44px;
+ margin-left: 30px;
+ margin-top: 27px;
  }
  
  div.top_txt {
@@ -325,6 +409,36 @@ transition: background .25s linear;
  font-size: 26px;
  color: #a72563;
  }
+ 
+ div.carousel_title {
+ position: absolute;
+ height: 96px;
+ width: 100%;
+ background-color: rgba(255, 255, 255, 0.5);
+ top: 50px;
+ }
+ 
+ div.carousel_title_short {
+ position: absolute;
+ height: 96px;
+ background-color: rgba(255, 255, 255, 0.5);
+ top: 50px;
+ padding-right: 30px;
+ }
+ 
+ div.carousel_caption {
+ position: absolute;
+ height: 45px;
+ width: 100%;
+ background-color: rgba(255, 255, 255, 0.5);
+ top: 455px;
+ }
+
+div.arrows_caption {
+position: relative;
+float: right;
+margin: 13px 30px 0px 0px;
+}
  
 /* CONTENT */
 
@@ -482,6 +596,18 @@ div.mobile {
 background-image:url(/static/img/mobile.png);
 }
 
+div.bread {
+background-image:url(/static/img/bread.png);
+}
+
+div.cheese {
+background-image:url(/static/img/cheese.png);
+}
+
+div.fruit {
+background-image:url(/static/img/fruit.png);
+}
+
 div.bullet_text {
 position: relative;
 float: left;
@@ -513,8 +639,93 @@ div.bullet_object p {
  font-weight: 700;
 }
 
+div.bullet_object ul {
+ list-style-image:url(/static/img/small_triangle.png);
+ margin-left: 14px;
+}
+
+div.bullet_object li {
+ font-family: 'Gudea', sans-serif;
+ font-size: 14px;
+ color: #000;
+ line-height: 21px;
+}
+
 .mr52 {
 margin-right: 52px;
+}
+
+div.rooms {
+overflow: auto;
+}
+
+div.room {
+position: relative;
+margin-bottom: 70px;
+}
+
+div.picture {
+width: 429px;
+height: 238px;
+border: 5px solid #000;
+}
+
+.room_picture_1 {
+background-image:url(/static/img/room_picture_1.png);
+}
+
+.room_picture_2 {
+background-image:url(/static/img/room_picture_2.png);
+}
+
+.room_picture_3 {
+background-image:url(/static/img/room_picture_3.png);
+}
+
+.room_picture_4 {
+background-image:url(/static/img/room_picture_4.png);
+}
+
+.float_right{
+float: right;
+}
+
+.float_left{
+float: left;
+}
+
+div.caption_row {
+position: relative;
+float: left;
+width: 100%;
+margin-top: 10px;
+}
+
+div.caption {
+position: relative;
+float: left;
+}
+
+div.arrows {
+position: relative;
+float: right;
+}
+
+div.arrow_left {
+position: relative;
+float: left;
+width: 10px;
+height: 16px;
+background-image:url(/static/img/arrow_left.png);
+margin-right: 10px;
+}
+
+div.arrow_right {
+position: relative;
+float: left;
+width: 10px;
+height: 16px;
+background-image:url(/static/img/arrow_right.png);
 }
 
 /* FOOTER */

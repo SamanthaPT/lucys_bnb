@@ -23,17 +23,17 @@ def index(request):
   
   return shortcuts.render_to_response("index.html", params)
   
-def rooms(request):
+def book(request):
   params = {}
   return shortcuts.render_to_response("book_room.html", params)  
   
-def contacts(request):
+def rooms(request):
   params = {}
-  return shortcuts.render_to_response("contacts.html", params)
+  return shortcuts.render_to_response("our_rooms.html", params)
   
-def activities(request):
+def breakfast(request):
   params = {}
-  return shortcuts.render_to_response("activities.html", params)
+  return shortcuts.render_to_response("breakfast.html", params)
   
 def location(request):
   params = {}

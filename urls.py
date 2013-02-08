@@ -18,9 +18,9 @@ from django.conf.urls.defaults import *
 urlpatterns = patterns(
     '',
     (r'^$', 'index.index'),
-	(r'^book_room$', 'index.rooms'),
-	(r'^contacts$', 'index.contacts'),
-	(r'^activities$', 'index.activities'),
+	(r'^book_room$', 'index.book'),
+	(r'^our_rooms$', 'index.rooms'),
+	(r'^breakfast$', 'index.breakfast'),
 	(r'^location$', 'index.location'),
 	(r'^s$', 'index.sendmail'),
     )
