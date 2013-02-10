@@ -158,6 +158,14 @@ font-family: 'Rancho', cursive;
 font-size: 21px;
 color: #000;
 }
+
+span.fs18 {
+font-size: 18px;
+}
+
+.lh17 {
+line-height: 17px;
+}
  
 /* HEADER */
  
@@ -265,6 +273,14 @@ transition: background .25s linear;
  margin-bottom: 60px !important;
  }
  
+ .mt15 {
+ margin-top: 15px !important;
+ }
+ 
+ .mb70 {
+ margin-bottom: 70px !important;
+ }
+ 
 /* CAROUSEL */
  
  div.carousel {
@@ -305,6 +321,10 @@ transition: background .25s linear;
  
  .breakfast_1 {
  background-image:url(/static/img/breakfast_1.png);
+ }
+ 
+ .location_1 {
+ background-image:url(/static/img/location_1.png);
  }
  
  div.small_header {
@@ -580,6 +600,11 @@ overflow: auto;
 margin-bottom: 100px;
 }
 
+div.list_row2 {
+height: 100px;
+margin-bottom: 100px;
+}
+
 div.bullet {
 position: relative;
 float: left;
@@ -628,6 +653,66 @@ div.cold_beverages {
 background-image:url(/static/img/cold_beverages.png);
 }
 
+div.home_address {
+background-image:url(/static/img/home_address.png);
+}
+
+div.doc {
+background-image:url(/static/img/doc.png);
+}
+
+div.airport {
+background-image:url(/static/img/airport.png);
+}
+
+div.whale_dolphin_watching {
+background-image:url(/static/img/whale_dolphin_watching.png);
+}
+
+div.bicycle {
+background-image:url(/static/img/bicycle.png);
+}
+
+div.scuba_diving {
+background-image:url(/static/img/scuba_diving.png);
+}
+
+div.bird_watching {
+background-image:url(/static/img/bird_watching.png);
+}
+
+div.boat{
+background-image:url(/static/img/boat.png);
+}
+
+div.mountain_climbing {
+background-image:url(/static/img/mountain_climbing.png);
+}
+
+div.marina {
+background-image:url(/static/img/anchor.png);
+}
+
+div.speluking {
+background-image:url(/static/img/speluking.png);
+}
+
+div.fishing{
+background-image:url(/static/img/fishing.png);
+}
+
+div.hiking {
+background-image:url(/static/img/hiking.png);
+}
+
+div.museum {
+background-image:url(/static/img/museum.png);
+}
+
+div.horseback_riding {
+background-image:url(/static/img/horseback_riding.png);
+}
+
 div.bullet_text {
 position: relative;
 float: left;
@@ -641,7 +726,13 @@ border-bottom: 8px solid #57062d;
 padding-bottom: 5px;
 }
 
-div.bullet_name p {
+div.bullet_name2 {
+width: 330px;
+border-bottom: 8px solid #57062d;
+padding-bottom: 5px;
+}
+
+div.bullet_name p, div.bullet_name2 p {
  font-family: 'Rancho', sans-serif;
  font-size: 24px;
  color: #a72563;
@@ -656,7 +747,6 @@ div.bullet_object p {
  font-family: 'Gudea', sans-serif;
  font-size: 14px;
  color: #000;
- font-weight: 700;
 }
 
 div.bullet_object ul {
@@ -750,6 +840,11 @@ float: left;
 width: 10px;
 height: 16px;
 background-image:url(/static/img/arrow_right.png);
+}
+
+div.map {
+border: 8px solid #57062d;
+margin-bottom: 100px;
 }
 
 /* FOOTER */
