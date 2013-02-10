@@ -60,7 +60,7 @@ body {
  
 div#wrapper {
        width: 100%;
-       min-height: 100%;
+       /*min-height: 100%;*/
        height: auto !important;
        height: 100%;
        margin: 0px 0px -41px 0px;
@@ -165,6 +165,43 @@ font-size: 18px;
 
 .lh17 {
 line-height: 17px;
+}
+
+div.largest_text {
+position: relative;
+float: left;
+}
+
+div.largest_text p {
+font-family: 'Rancho', cursive;
+font-size: 113px;
+margin: 45px 0px 30px 0px;
+color: #57062d;
+text-shadow: 0px -2px 0px #ffffff;
+filter: dropshadow(color=#ffffff, offx=0, offy=-2);
+}
+
+div.largest_text span {
+color: #a72563;
+}
+
+div.body_text {
+position: relative;
+float: left;
+width: 551px;
+}
+
+div.body_text p {
+font-family: 'Gudea', sans-serif;
+font-size: 14px;
+color: #8f7a4c;
+text-align: justify;
+line-height: 16px;
+margin-bottom: 20px;
+}
+
+div.body_text span {
+font-weight: 700;
 }
  
 /* HEADER */
@@ -306,11 +343,38 @@ transition: background .25s linear;
  top: -23px;
  }
  
+ div.fg_img2 {
+ position: absolute;
+ background-image:url(/static/img/lucy_vector_dark.png);
+ width: 336px;
+ height: 368px;
+ left: 623px;
+ top: 59px;
+ }
+ 
+ div.fg_img2:hover {
+ position: absolute;
+ background-image:url(/static/img/lucy_vector.png);
+ width: 336px;
+ height: 368px;
+ left: 623px;
+ top: 59px;
+ }
+ 
  div.carousel_img {
  position: relative;
  left: -160px;
  width: 1271px;
  height: 515px;
+ border-top: 8px solid #000;
+ border-bottom: 8px solid #000;
+ }
+ 
+ div.carousel_img2 {
+ position: relative;
+ left: -160px;
+ width: 1271px;
+ height: 418px;
  border-top: 8px solid #000;
  border-bottom: 8px solid #000;
  }
@@ -852,6 +916,15 @@ background-image:url(/static/img/arrow_right.png);
 div.map {
 border: 8px solid #57062d;
 margin-bottom: 100px;
+}
+
+div.underline {
+position: absolute;
+top: 148px;
+width: 100%;
+height: 8px;
+background-color: #57062d;
+z-index: -1;
 }
 
 /* FOOTER */

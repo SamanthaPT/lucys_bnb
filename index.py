@@ -43,6 +43,10 @@ def contact(request):
   params = {}
   return shortcuts.render_to_response("contact.html", params)
   
+def about_us(request):
+  params = {}
+  return shortcuts.render_to_response("about_us.html", params)
+  
 def sendmail(request):
 	t = "elizabeths.place.pico@gmail.com"
 	subj = "Aluguer"
