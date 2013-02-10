@@ -257,6 +257,14 @@ transition: background .25s linear;
  margin-top: 23px;
  }
  
+ .mt60 {
+ margin-top: 60px;
+ }
+ 
+ .mb60 {
+ margin-bottom: 60px !important;
+ }
+ 
 /* CAROUSEL */
  
  div.carousel {
@@ -608,6 +616,18 @@ div.fruit {
 background-image:url(/static/img/fruit.png);
 }
 
+div.specials {
+background-image:url(/static/img/specials.png);
+}
+
+div.hot_beverages {
+background-image:url(/static/img/hot_beverages.png);
+}
+
+div.cold_beverages {
+background-image:url(/static/img/cold_beverages.png);
+}
+
 div.bullet_text {
 position: relative;
 float: left;
@@ -649,6 +669,10 @@ div.bullet_object li {
  font-size: 14px;
  color: #000;
  line-height: 21px;
+}
+
+div.bullet_object ul.circle_bullets {
+list-style-image:url(/static/img/circle_bullet.png);
 }
 
 .mr52 {
