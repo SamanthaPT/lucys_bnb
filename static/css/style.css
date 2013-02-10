@@ -315,6 +315,13 @@ transition: background .25s linear;
  border-bottom: 8px solid #000;
  }
  
+ div.carousel_img_empty {
+ position: relative;
+ left: -160px;
+ width: 1271px;
+ border-top: 8px solid #000;
+ }
+ 
  .our_rooms_1 {
  background-image:url(/static/img/our_rooms_1.png);
  }
@@ -727,7 +734,7 @@ padding-bottom: 5px;
 }
 
 div.bullet_name2 {
-width: 330px;
+width: 356px;
 border-bottom: 8px solid #57062d;
 padding-bottom: 5px;
 }

@@ -39,6 +39,10 @@ def location(request):
   params = {}
   return shortcuts.render_to_response("location.html", params)
   
+def contact(request):
+  params = {}
+  return shortcuts.render_to_response("contact.html", params)
+  
 def sendmail(request):
 	t = "elizabeths.place.pico@gmail.com"
 	subj = "Aluguer"
