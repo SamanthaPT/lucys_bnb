@@ -298,6 +298,10 @@ transition: background .25s linear;
  margin-left: 35px;
  }
  
+.ml100 {
+ margin-left: 100px;
+ }
+ 
  .mt23 {
  margin-top: 23px;
  }
@@ -359,6 +363,9 @@ transition: background .25s linear;
  height: 368px;
  left: 623px;
  top: 59px;
+ transition: background .25s linear;
+-webkit-transition: background .25s linear;
+-moz-transition: background .25s linear;
  }
  
  div.carousel_img {
@@ -403,7 +410,7 @@ transition: background .25s linear;
  left: -152px;
  background-color: #57062d;
  width: 1263px;
- height: 234px;
+ height: 325px;
  border-top: 8px solid #000;
  border-bottom: 8px solid #000;
  }
@@ -457,7 +464,8 @@ transition: background .25s linear;
  }
  
  div.top_txt {
- height: 100px;
+ height: 68px;
+ margin-right: 100px;
  }
  
  div.large_white_txt {
@@ -467,12 +475,12 @@ transition: background .25s linear;
  
  div.large_white_txt p {
  font-family: 'Rancho', sans-serif;
- font-size: 72px;
+ font-size: 26px;
  color: #fff;
  }
  
  div.large_white_txt span{
-  font-size: 95px;
+  font-size: 53px;
  }
  
  div.large_euro {
@@ -483,18 +491,16 @@ transition: background .25s linear;
  
  div.large_euro p {
  font-family: 'Rancho', sans-serif;
- font-size: 60px;
+ font-size: 33px;
  color: #fff;
  }
  
  div.star_moon {
- position: relative;
- float: left;
+ position: absolute;
+ left: 290px;
  background-image:url(/static/img/star_moon.png);
  width: 74px;
  height: 72px;
- margin-left: 35px;
- margin-top: 10px;
  }
  
  div.bottom_txt {
@@ -942,8 +948,8 @@ position: absolute;
 }
 
 div.popup_wrapper2 {
-left: -227px;
-top: -70px;
+left: -720px;
+top: -98px;
 position: absolute;
 }
 
@@ -965,7 +971,7 @@ div.popup p {
 padding: 21px;
 color: #fff;
 font-family: 'Gudea', sans-serif;
-text-align: center;
+text-align: justify;
 font-size: 14px;
 }
 
@@ -982,8 +988,8 @@ border-top: 10px solid #000;
 
 div.triangle-down2 {
 position: absolute;
-left: 277px;
-top: 56px;
+left: 770px;
+top: 84px;
 width: 0;
 height: 0;
 border-left: 10px solid transparent;

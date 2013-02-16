@@ -20,7 +20,6 @@ urlpatterns = patterns(
     (r'^$', 'index.index'),
 	(r'^book_room$', 'index.book'),
 	(r'^our_rooms$', 'index.rooms'),
-	(r'^breakfast$', 'index.breakfast'),
 	(r'^location$', 'index.location'),
 	(r'^contact$', 'index.contact'),
 	(r'^about_us$', 'index.about_us'),

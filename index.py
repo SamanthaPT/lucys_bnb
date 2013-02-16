@@ -31,10 +31,6 @@ def rooms(request):
   params = {}
   return shortcuts.render_to_response("our_rooms.html", params)
   
-def breakfast(request):
-  params = {}
-  return shortcuts.render_to_response("breakfast.html", params)
-  
 def location(request):
   params = {}
   return shortcuts.render_to_response("location.html", params)
