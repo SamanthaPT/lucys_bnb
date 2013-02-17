@@ -182,7 +182,6 @@ font-size: 113px;
 margin: 45px 0px 30px 0px;
 color: #57062d;
 text-shadow: 0px -2px 0px #ffffff;
-filter: dropshadow(color=#ffffff, offx=0, offy=-2);
 }
 
 div.largest_text span {
