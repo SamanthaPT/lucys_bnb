@@ -35,6 +35,10 @@ def location(request):
   params = {}
   return shortcuts.render_to_response("location.html", params)
   
+def activities(request):
+  params = {}
+  return shortcuts.render_to_response("activities.html", params)
+  
 def contact(request):
   params = {}
   return shortcuts.render_to_response("contact.html", params)
