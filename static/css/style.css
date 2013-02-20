@@ -344,6 +344,10 @@ position: relative;
  margin-left: 100px;
  }
  
+ .mt2 {
+ margin-top: 2px;
+ }
+ 
  .mt23 {
  margin-top: 23px;
  }
@@ -1087,6 +1091,73 @@ left: -160px;
 background-color: #000;
 height: 200px;
 width: 1271px;
+}
+
+div.footer_menu {
+width: 960px;
+margin-right: auto;
+margin-left: auto;
+padding-left: 10px;
+}
+
+div.footer_menu ul {
+position: relative;
+float: left;
+margin-top: 70px;
+}
+
+div.footer_menu li {
+display: inline;
+margin-right: 15px;
+}
+
+div.footer_menu a {
+text-decoration: none;
+color: #ffffff;
+font-family: 'Gudea', sans-serif;
+font-size: 11px;
+}
+
+div.facebook_btn {
+position: relative;
+float: right;
+margin-top: 70px;
+background-color: #ffffff;
+padding: 7px 15px 7px 0px;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+
+div.facebook_btn p {
+font-family: 'Gudea', sans-serif;
+font-size: 20px;
+color: #000000;
+}
+
+div.facebook_btn span {
+font-weight: 800;
+font-size: 30px;
+}
+
+div.btn_seperator {
+width: 100%;
+height: 2px;
+background-color: #000;
+}
+
+div.facebook_f {
+position: relative;
+float: left;
+width: 72px;
+height: 46px;
+background-image:url(/static/img/facebook_f.png);
+margin-top: 2px;
+}
+
+div.facebook_text {
+position: relative;
+float: left;
 }
  
  
