@@ -13,7 +13,24 @@
 	<script type="text/javascript" src="/static/js/jquery-1.6.1.min.js"></script>
 	<script type="text/javascript" src="/static/js/jquery.lightbox-0.5.js"></script>
 	
+	<!-- jQuery library (served from Google) -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<!-- bxSlider Javascript file -->
+	<script src="/static/js/jquery.bxslider.min.js"></script>
+	<!-- bxSlider CSS file -->
+	<link href="/static/lib/jquery.bxslider.css" rel="stylesheet" />
+	
 	<script type="text/javascript">
+	
+	$(document).ready(function(){
+	
+	  $('.bxslider').bxSlider({
+		  mode: 'fade',
+		  captions: true,
+		  auto: true
+		});
+	  
+	});
 	
 	</script>
 
@@ -50,7 +67,6 @@
 		  </div> 
 		  
 		  <div class="carousel">
-			<div class="carousel_img our_rooms_1"></div>
 			<div class="carousel_title">
 				<h5>Bedroom</h5>
 				<div class="medium_arrow"></div>
@@ -60,10 +76,12 @@
 			</div>
 			<div class="carousel_caption">
 				<h7>Room includes queen size bed with orthopedic matress, television and view to Faial Island.</h7>
-				<div class="arrows_caption">
-					<div class="arrow_left"></div>
-					<div class="arrow_right"></div>
-				</div>
+			</div>
+			<div class="carousel_img">
+				<ul class="bxslider">
+				  <li><img src="/static/img/our_rooms_1.png" /></li>
+				  <li><img src="/static/img/our_rooms_2.png" /></li>
+				</ul>
 			</div>
 		  </div> 
 		  
@@ -75,10 +93,6 @@
 					<div class="caption_row">
 						<div class="caption">
 							<h3><span>WC - jacuzzi bathtub</span></h3>
-						</div>
-						<div class="arrows">
-							<div class="arrow_left"></div>
-							<div class="arrow_right"></div>
 						</div>
 					</div>
 				</div>
@@ -139,6 +153,9 @@
 						</div>
 					</div>
 				</a>
+				<div class="small_txt_footer">
+					<p>Pico Azores - Bed & Breakfast</p>
+				</div>
 			</div>
 		</div> 
 

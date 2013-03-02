@@ -89,6 +89,22 @@ div#footer_inner_wrapper, div#content_inner_wrapper {
        margin: 0px auto;
  }
  
+.bx-wrapper, .bx-viewport {
+overflow: visible !important;
+border: solid #fff 0px !important;
+left: 0px !important;
+-moz-box-shadow: 0 0 0 #000 !important;
+-webkit-box-shadow: 0 0 0 #000 !important;
+box-shadow: 0 0 0 000 !important;
+}
+
+.bx-wrapper .bx-pager {
+left: 1055px !important;
+z-index: 110 !important;
+bottom: 41px !important;
+width: 40px !important;
+}
+ 
 /* TEXT */ 
 
 h1 {
@@ -591,6 +607,7 @@ opacity: 0.4;
  width: 100%;
  background-color: rgba(255, 255, 255, 0.5);
  top: 50px;
+ z-index: 100;
  }
  
  div.carousel_title_short {
@@ -607,6 +624,7 @@ opacity: 0.4;
  width: 100%;
  background-color: rgba(255, 255, 255, 0.5);
  top: 455px;
+ z-index: 100;
  }
 
 div.arrows_caption {
@@ -1104,6 +1122,7 @@ div.footer_menu ul {
 position: relative;
 float: left;
 margin-top: 70px;
+z-index: 100;
 }
 
 div.footer_menu li {
@@ -1118,6 +1137,10 @@ font-family: 'Gudea', sans-serif;
 font-size: 11px;
 }
 
+div.footer_menu a:hover {
+text-decoration: underline;
+}
+
 div.facebook_btn {
 position: relative;
 float: right;
@@ -1127,6 +1150,7 @@ padding: 7px 10px 7px 0px;
 border-radius: 3px;
 -moz-border-radius: 3px;
 -webkit-border-radius: 3px;
+z-index: 100;
 }
 
 div.facebook_btn p {
@@ -1140,6 +1164,18 @@ font-weight: 800;
 font-size: 16px;
 }
 
+div.facebook_btn:hover, div.facebook_btn:hover div.facebook_text p {
+background-color: #3b5998;
+color: #ffffff;
+transition: background .25s linear;
+-webkit-transition: background .25s linear;
+-moz-transition: background .25s linear;
+}
+
+div.facebook_btn:hover div.facebook_f {
+background-image:url(/static/img/facebook_f_hover.png);
+}
+
 div.btn_seperator {
 width: 100%;
 height: 2px;
@@ -1151,13 +1187,24 @@ position: relative;
 float: left;
 width: 12px;
 height: 23px;
-background-image:url(/static/img/facebook_f.png);
+background-image:url(/static/img/facebook_f_1.png);
 margin: 3px 13px 0px 13px;
 }
 
 div.facebook_text {
 position: relative;
 float: left;
+}
+
+div.small_txt_footer {
+position: relative;
+padding-top: 150px;
+}
+
+div.small_txt_footer p {
+color: #ffffff;
+font-family: 'Gudea', sans-serif;
+font-size: 11px;
 }
  
  
