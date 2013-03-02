@@ -190,6 +190,7 @@ line-height: 17px;
 div.largest_text {
 position: relative;
 float: left;
+z-index: 100;
 }
 
 div.largest_text p {
@@ -208,6 +209,7 @@ div.body_text {
 position: relative;
 float: left;
 width: 551px;
+z-index: 100;
 }
 
 div.body_text p {
