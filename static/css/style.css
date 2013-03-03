@@ -69,7 +69,7 @@ div#wrapper {
 
 div#footer_wrapper {
        width: 100%;
-       height: 41px;
+       background-color: #000;
  }
  
 
@@ -228,15 +228,12 @@ font-weight: 700;
 /* HEADER */
  
  div.header {
- height: 107px;
+ height: 61px;
  }
  
  div.top-padding {
- position: relative;
- left: -160px;
  background-color: #000;
  height: 16px;
- width: 1271px;
  }
  
  div.main_menu {
@@ -447,7 +444,6 @@ position: relative;
  width: 1271px;
  height: 418px;
  border-top: 8px solid #000;
- border-bottom: 8px solid #000;
  }
  
  div.carousel_img_empty {
