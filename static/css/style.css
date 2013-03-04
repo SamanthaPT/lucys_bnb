@@ -63,7 +63,8 @@ div#wrapper {
        /*min-height: 100%;*/
        height: auto !important;
        height: 100%;
-       margin: 0px 0px -41px 0px;
+       margin: 0px 0px -200px 0px;
+	   min-height: 100%;
  }
  
 
@@ -75,7 +76,7 @@ div#footer_wrapper {
 
 div#content_wrapper {
        width: 100%;
-       padding: 0px 0px 41px 0px;
+       padding: 0px 0px 200px 0px;
  }
  
 
@@ -444,6 +445,8 @@ position: relative;
  width: 1271px;
  height: 418px;
  border-top: 8px solid #000;
+ border-bottom: 8px solid #000;
+ margin-bottom: -8px;
  }
  
  div.carousel_img_empty {
